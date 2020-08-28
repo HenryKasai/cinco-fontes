@@ -6,43 +6,42 @@ body {
     text-align: center;
     background-color: slategrey;
 }   
+p {
+    font-size: 22px;
+    color: cornsilk;
+    font-weight: 700;
+}
 h1 {
-    color: rgb(173, 253, 14);
-    font-weight: bold;
-    font-size: 2.5em;
+    color: rgb(0, 238, 255);
+    font-weight: 700;
+    font-size: 2em;
     text-decoration: underline;
 }
 .serif {
     font-family: 'Lora';
-    font-size: 22px;
     font-weight: 700;
-    color: rgb(20, 255, 231);
 }
 .sans-serif {
     font-family: 'Raleway';
-    font-size: 22px;
     font-weight: 700;
-    color: yellow;
 }
 .fantasy {
     font-family: 'Londrina Solid';
     font-weight: 100;
     letter-spacing: 2px;
-    font-size: 22px;
     font-weight: 700;
-    color: tomato;
 }
 .cursive {
     font-family: 'Amatic SC';
     font-weight: 700;
-    font-size: 22px;
     letter-spacing: 2px;
     font-weight: 700;
-    color: rgb(252, 99, 252);
 }
 .monospace {
     font-family: 'IBM Plex Mono';
-    font-size: 22px;
     font-weight: 700;
-    color: rgb(21, 149, 253);
+}
+.serif, .sans-serif, .monospace, .fantasy, .cursive {
+    color: deepskyblue;
+    font-size: 1.2em;
 }
