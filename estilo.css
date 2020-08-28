@@ -13,35 +13,29 @@ p {
 }
 h1 {
     color: rgb(0, 238, 255);
-    font-weight: 700;
     font-size: 2em;
     text-decoration: underline;
 }
 .serif {
     font-family: 'Lora';
-    font-weight: 700;
 }
 .sans-serif {
     font-family: 'Raleway';
-    font-weight: 700;
 }
 .fantasy {
     font-family: 'Londrina Solid';
     font-weight: 100;
     letter-spacing: 2px;
-    font-weight: 700;
 }
 .cursive {
     font-family: 'Amatic SC';
-    font-weight: 700;
     letter-spacing: 2px;
-    font-weight: 700;
 }
 .monospace {
     font-family: 'IBM Plex Mono';
-    font-weight: 700;
 }
 .serif, .sans-serif, .monospace, .fantasy, .cursive {
     color: deepskyblue;
     font-size: 1.2em;
+    font-weight: 400;
 }
