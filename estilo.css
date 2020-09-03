@@ -4,17 +4,24 @@
 
 body {
     text-align: center;
-    background-color: slategrey;
+    background-color: rgb(62, 10, 99);
+    margin-left: 400px;
+    margin-right: 400px;
 }   
 p {
     font-size: 32px;
-    color: cornsilk;
+    color: yellow;
     font-weight: 700;
 }
 h1 {
-    color: rgb(0, 238, 255);
-    font-size: 2em;
+    color: lime;
+    font-size: 3em;
     text-decoration: underline;
+}
+h2 {
+    font-size: 2em;
+    color: yellow;
+    font-weight: 700;
 }
 .serif {
     font-family: 'Lora';
@@ -35,7 +42,7 @@ h1 {
     font-family: 'IBM Plex Mono';
 }
 .serif, .sans-serif, .monospace, .fantasy, .cursive {
-    color: deepskyblue;
-    font-size: 1.2em;
+    color: rgb(0, 255, 191);
+    font-size: 1.5em;
     font-weight: 400;
 }
